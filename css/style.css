@@ -1,0 +1,126 @@
+body{
+	margin:0;
+	padding:0;
+	}
+img{ border:0;}
+#wrapper{
+	width:100%;
+	}
+
+.clear{clear:both;}
+
+#header{
+	width:100%;
+	min-height:283px;
+	background:url(../images/header_bg.jpg) 0 0 repeat-x;
+	}
+.header_inner{
+	width:1200px;
+	margin:auto;
+	}
+.logo{
+	float:left;
+	width:467px;
+	padding-top:20px;
+	}
+.header_right{
+	width:567px;
+	float:left;
+	padding-top:25px;
+	margin-left:55px;
+	}
+#content{
+	width:100%;
+	background-image:url(../images/content_bg.jpg);
+	background-size:cover;
+	min-height:1485px;
+	}
+.content_right{
+	width:100%;
+	min-height:600px;
+	background:url(../images/right_img.jpg) right 0 repeat-y;
+	}
+.content_left{
+	width:100%;
+	min-height:600px;
+	background:url(../images/right_img.jpg) left 0 repeat-y;
+	}
+.lessons{
+	float:left;
+	text-align:center;
+	margin-right:5px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.lessons h2{
+	margin:0;
+	padding:0;
+	c
+	}
+.lessons h2 span{
+	font-weight:bold;
+	font-size:30px;
+	}
+.content_inner{
+	width:1000px;
+	margin:auto;
+	}
+
+#nav{
+	color:#302c19;
+	}
+#nav ul{
+	margin:0;
+	padding:0;
+	}
+#nav ul li{
+	list-style:none;
+	float:left;
+	font-weight:normal;
+	color:#302c19;
+	text-shadow:2px 2px 2px #999;
+	line-height:45px;
+	width:205px;
+	font-size:26px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+#nav ul li span{
+	font-weight:bold;
+	font-size:30px;
+	}
+#nav ul li a{
+	color:#000;
+	text-decoration:none;
+	}
+
+.lessons_thumb{}
+
+#content h1{
+	margin:0;
+	padding:0 0 30px;
+	font-size:52px;
+	color:#302c19;
+	font-weight:normal;
+	background:url(../images/heading_sep.png) 0 bottom repeat-x;
+	font-family: "ArcherPro-Bold";
+	}
+@font-face {
+    font-family: "ArcherPro-Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/archerprobold.eot?#iefix") format("embedded-opentype"), url("../fonts/archerprobold.woff") format("woff"), url("../fonts/archerprobold.ttf") format("truetype"), url("../fonts/archerprobold.svg#archerprobold") format("svg");
+}
+
+#footer{
+	width:100%;
+	margin-top:435px;
+	min-height:749px;
+	background:url(../images/footer_bg.png) 0 0 repeat-x;
+	}
+.footer_inner{
+    margin: auto;
+    width: 1000px;
+	padding-top:515px;
+}
+.footer_inner img{ vertical-align:top;}
